@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
-os.chdir('C:\\Users\\bnhas\\OneDrive\\Desktop\\Classes\\Classes Spring 2023\\Industrial Organization 2\\Homework\\Data')
+# os.chdir('C:\\Users\\bnhas\\OneDrive\\Desktop\\Classes\\Classes Spring 2023\\Industrial Organization 2\\Homework\\Data')  # commented out to avoid dependence on local paths
 def ValueIteration(RC=11.7257,theta11=2.4569,theta31=.4475,theta32=.4459,theta34=.1064,beta=.9999,ProbabilityReplacement=.18):
     LL=-3393.991
     epsilon=.0001

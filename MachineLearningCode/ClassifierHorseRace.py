@@ -1,5 +1,5 @@
 import os
-os.chdir('C:/Users/bnhas/OneDrive/Documents/Classes spring 2022/OMS Analytics/Computational data Analysis/Problems/homework4/homework4')
+# os.chdir('C:/Users/bnhas/OneDrive/Documents/Classes spring 2022/OMS Analytics/Computational data Analysis/Problems/homework4/homework4')  # commented out to avoid dependence on local paths
 def getDataPart1(file='data/marriage.csv'):
     from numpy import genfromtxt
     my_data = genfromtxt(file, delimiter=',')
