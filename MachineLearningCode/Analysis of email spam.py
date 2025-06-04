@@ -1,5 +1,5 @@
 import os
-os.chdir('C:/Users/bnhas/OneDrive/Desktop/Classes spring 2022/OMS Analytics/Computational data Analysis/Solutions/Golden_Dana_HW6/Golden_Dana_HW6')
+# os.chdir('C:/Users/bnhas/OneDrive/Desktop/Classes spring 2022/OMS Analytics/Computational data Analysis/Solutions/Golden_Dana_HW6/Golden_Dana_HW6')  # commented out to avoid dependence on local paths
 def readData(file='data/spambase.data'):
     import numpy as np
     x=np.genfromtxt(file, delimiter=",")

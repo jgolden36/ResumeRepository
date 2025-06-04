@@ -1,5 +1,5 @@
 import os
-os.chdir('C:/Users/bnhas/Downloads/SCF_PRICES')
+# os.chdir('C:/Users/bnhas/Downloads/SCF_PRICES')  # commented out to avoid dependence on local paths
 def getDataForAnalysis(file='SCF_PRICES.csv'):
     import pandas as pd
     tableOfData=pd.read_csv(file)

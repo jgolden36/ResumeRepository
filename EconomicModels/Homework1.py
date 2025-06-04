@@ -5,7 +5,7 @@ import math
 import statsmodels.api as sm
 #from statsmodels.sandbox.regression.gmm import IV2SLS
 from linearmodels.iv import IV2SLS
-os.chdir("C:\\Users\\bnhas\\OneDrive\\Desktop\\Classes\\Classes Spring 2023\\Industrial Organization 2\\Homework\\Data")
+# os.chdir("C:\\Users\\bnhas\\OneDrive\\Desktop\\Classes\\Classes Spring 2023\\Industrial Organization 2\\Homework\\Data")  # commented out to avoid dependence on local paths
 df=pd.read_csv('PS1_Data.csv')
 df=pd.get_dummies(df,columns=['sgmnt'],drop_first=True)
 df=df.fillna(0)
